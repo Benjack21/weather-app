@@ -1,0 +1,31 @@
+Instalación
+1. Clonar repositorio
+git clone https://github.com/tu-usuario/weather-app.git
+cd weather-app
+🔙 Backend setup
+Crear entorno virtual
+python -m venv venv
+venv\Scripts\activate
+Instalar dependencias
+pip install -r requirements.txt
+Configurar variables de entorno
+
+Crear archivo .env:
+
+WEATHER_API_KEY=tu_api_key
+WEATHER_API_URL=https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline
+REDIS_URL=redis://localhost:6379
+Ejecutar servidor
+uvicorn app.main:app --reload
+
+Servidor disponible en:
+
+http://localhost:8000
+🔜 Frontend setup
+cd weather-frontend
+npm install
+npm start
+
+App disponible en:
+
+http://localhost:3000
