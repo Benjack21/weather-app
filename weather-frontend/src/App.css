@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f5f7fa;
+  color: #222;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* INPUT */
+input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+  width: 60%;
+  background: transparent;
+}
+
+button {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+}
+
+button:hover {
+  color: #000;
+}
+
+/* CARD */
+.card {
+  margin-top: 30px;
+}
+
+/* CLIMA PRINCIPAL */
+.main-temp {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.details {
+  font-size: 14px;
+  color: #777;
+}
+
+/* HOURLY */
+.hourly-list {
+  margin-top: 30px;
+}
+
+.hourly-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
